@@ -1,5 +1,5 @@
 # Quiz Assessment
-
+<br>
 ## Description
 The **Quiz Assessment** project is a Python-based application designed to facilitate interactive quizzes on various topics. It features three distinct implementations for storing quiz data: in-memory, file-based, and database-driven. This project aims to help users test their knowledge in a fun and engaging way.
 <br>
@@ -24,7 +24,7 @@ To set up the Quiz Assessment project, follow these steps:
 <br>
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/quiz-assessment.git
+   git clone https://github.com/lavipawar4/quiz-assessment.git
    cd quiz-assessment
 <br>
 2. Install required packages (if applicable): If you have a requirements.txt file, install the necessary Python packages:
@@ -38,7 +38,6 @@ python assignment3.py setup
 
 <br>
 Start the quiz by executing:
-
 
 <br>
 5.python assignment3.py quiz
