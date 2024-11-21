@@ -1,1 +1,25 @@
+2. Python code:
+
+
+
+def quiz_file():
+    try:
+        with open("quiz_data.txt", "r") as file:
+            questions = file.readlines()
+
+        score = 0
+        for line in questions:
+            question, answer = line.strip().split("|")
+            user_answer = input(question + " ")
+            if user_answer.strip().lower() == answer.lower():
+                print("Correct!")
+                score += 1
+            else:
+                print(f"Wrong! The correct answer is {answer}.")
+        print(f"Your final score is: {score}/{len(questions)}")
+    except FileNotFoundError:
+        print("Quiz data file not found!")
+
+# Call the function
+quiz_file()
 
